@@ -1,39 +1,39 @@
 /* Education Icons - Gradient Circular Style (matching Skills section) */
 .edu-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
-    transition: all 0.3s ease;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3) !important;
+    transition: all 0.3s ease !important;
 }
 
 .edu-icon i {
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 1.5rem !important;
+    color: #fff !important;
 }
 
 .education-item:hover .edu-icon {
-    transform: scale(1.1);
-    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
+    transform: scale(1.1) !important;
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5) !important;
 }
 
 /* Different gradient for each education level */
 .education-item:nth-child(1) .edu-icon {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3) !important;
 }
 
 .education-item:nth-child(2) .edu-icon {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    box-shadow: 0 8px 20px rgba(240, 147, 251, 0.3);
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+    box-shadow: 0 8px 20px rgba(240, 147, 251, 0.3) !important;
 }
 
 .education-item:nth-child(3) .edu-icon {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    box-shadow: 0 8px 20px rgba(79, 172, 254, 0.3);
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+    box-shadow: 0 8px 20px rgba(79, 172, 254, 0.3) !important;
 }
